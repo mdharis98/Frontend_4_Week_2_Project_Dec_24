@@ -1,0 +1,42 @@
+.result-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px;
+  text-align: left;
+  border-radius: 10px;
+  background-color: #fff;
+  color: black;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-card p {
+  margin: 10px 0;
+}
+
+.result-card strong {
+  color: black;
+}
+
+.result-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.result-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.result-card strong {
+  color: #333;
+}
+
+.result-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
